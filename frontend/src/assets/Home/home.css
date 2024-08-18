@@ -1,0 +1,38 @@
+.Home{
+    box-sizing: border-box;
+    min-height: 40vh;
+    width: 100%;
+   
+    display: flex;
+    gap: 40px;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+   margin: 5vh 0vh;
+}
+.card>b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    background-color: rgba(128, 128, 128, 0.492);
+    
+}
+.card>p{
+    padding: 5px;
+}
+
+.card{
+   
+    width: 300px;
+    min-height: 120px;
+    border: 1px solid rgba(128, 128, 128, 0.256);
+    border-radius: 4px;
+    background-color: #F4F6F8;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+    
+}
+.card>p{
+    text-align: center;
+}

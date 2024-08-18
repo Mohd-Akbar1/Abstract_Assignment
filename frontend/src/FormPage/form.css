@@ -1,0 +1,26 @@
+body{
+    width: 100vw;
+}
+.formContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 90vh;
+}
+.userData{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.formbtn{
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+}
+#title{
+    padding: 5px 10px;
+}

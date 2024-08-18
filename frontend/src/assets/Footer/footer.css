@@ -1,0 +1,25 @@
+
+.FooterContainer{
+   
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footerinfo{
+    display: flex;
+    justify-content: space-around;
+}
+.footercopyright{
+    display: flex;
+    justify-content: center;
+   
+}
+.innersize{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
